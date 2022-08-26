@@ -9,6 +9,7 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
+  Pseudocode written in book
 */
 
 /*
@@ -23,12 +24,12 @@ function isPalindrome(word) {
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
-  console.log("=>", isPalindrome("racecar"));
+  console.log("=>", isPalindrome("dad"));
 
   console.log("");
 
   console.log("Expecting: false");
-  console.log("=>", isPalindrome("robot"));
+  console.log("=>", isPalindrome("trigger"));
 }
 
 module.exports = isPalindrome;
